@@ -1,0 +1,53 @@
+.login-button {
+  width: 100%;
+  height: 80rpx;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.row-head {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80rpx;
+  background: #1296db;
+}
+
+.body-area {
+  padding-top: 80rpx;
+  box-sizing: border-box;
+}
+
+.item {
+  flex: 2;
+  text-align: center;
+  font-size: 28rpx;
+  line-height: 80rpx;
+}
+
+.remind {
+  flex: 3;
+  line-height: 32rpx;
+}
+
+.item.head {
+  color: white;
+}
+
+.item.body {
+  color: #333;
+}
+
+.control {
+  margin: 0 4rpx;
+  font-size: 24rpx;
+}
+
+.body.remind {
+  font-size: 24rpx;
+  color: #999;
+}

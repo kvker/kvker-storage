@@ -1,0 +1,29 @@
+<button class="login-button" wx:if="{{!userInfo}}" bindtap="getUserProfile" size="default">登录</button>
+<block wx:else>
+  <view class="row row-head">
+    <view class="item head">名称</view>
+    <view class="item head">数量</view>
+    <view class="item head">单价</view>
+    <view class="item head remind">备注</view>
+    <view class="item head">操作</view>
+  </view>
+  <view class="body-area" bindtap="clickHandle">
+    <view class="row" wx:for="{{list}}" wx:key="_id">
+      <view class="item body">{{item.name}}</view>
+      <view class="item body">{{item.count}}</view>
+      <view class="item body">{{item.price}}</view>
+      <view class="item body remind">{{item.remind}}</view>
+      <view class="item body">
+        <text class="control" style="color: red;" data-name="delete" data-idx="{{index}}">删除</text>
+        <text class="control" data-name="detail" data-idx="{{index}}">详情</text>
+      </view>
+    </view>
+  </view>
+  <view class="fab">
+    <navigator url="/pages/edit/edit">
+      <image
+        src="cloud://release-my-storage-0dz0t5c249c06.7265-release-my-storage-0dz0t5c249c06-1305216517/icon/icon-add.png"
+        mode="aspectFit"></image>
+    </navigator>
+  </view>
+</block>

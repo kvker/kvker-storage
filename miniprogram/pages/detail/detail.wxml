@@ -1,0 +1,18 @@
+<view class="row">
+  name: {{detail.name}}
+</view>
+<view class="row">
+  price: {{detail.price}}
+</view>
+<view class="row">
+  count: {{detail.count}}
+</view>
+<view class="row">
+  remind: {{detail.remind}}
+</view>
+<view class="row">
+  updateTime: {{detail.updateTime}}
+</view>
+<view class="row">
+  createTime: {{detail.createTime}}
+</view>

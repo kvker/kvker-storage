@@ -1,0 +1,5 @@
+<input type="text" placeholder="名称" model:value="{{name}}" auto-focus></input>
+<input type="number" placeholder="数量" model:value="{{count}}"></input>
+<input type="digit" placeholder="单价(单位/元，精确到分)" model:value="{{price}}"></input>
+<input type="text" placeholder="备注" model:value="{{remind}}"></input>
+<view class="button" bindtap="clickSubmit">提交</view>

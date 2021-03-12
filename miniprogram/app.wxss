@@ -1,0 +1,29 @@
+page {
+  box-sizing: border-box;
+}
+
+.fab {
+  position: fixed;
+  right: 40rpx;
+  bottom: 120rpx;
+  background-color: white;
+  box-shadow: 0 0 4rpx 4rpx #ddd;
+  border-radius: 8rpx;
+}
+
+.fab navigator {
+  height: 80rpx;
+}
+
+.fab image {
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.button {
+  background-color: #1296db;
+  color: white;
+  padding: 20rpx;
+  text-align-last: center;
+  border-radius: 8rpx;
+}
